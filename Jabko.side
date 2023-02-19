@@ -1,0 +1,250 @@
+{
+  "id": "aeb3944d-778b-4d20-b33c-a9f8c19e01c1",
+  "version": "2.0",
+  "name": "Jabko",
+  "url": "https://jabko.ua/",
+  "tests": [{
+    "id": "35e05a2d-c44b-43d3-b7a9-c894065921f6",
+    "name": "Iphone 14 Pro Max (Button \"Оформити замовлення\")",
+    "commands": [{
+      "id": "4b1d231c-78e4-4507-8e40-4d0b33a0dcb7",
+      "comment": "",
+      "command": "open",
+      "target": "https://jabko.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaf550cc-cfff-4b05-865b-dfd5d2d11af3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db037621-1332-449e-a797-9b790146888f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=iPhone",
+      "targets": [
+        ["linkText=iPhone", "linkText"],
+        ["css=.item:nth-child(1) .item--link-l1", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://jabko.ua/iphone/')])[2]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aed10ccd-3036-4824-a433-ac56e3b36f1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home--one:nth-child(1) > a",
+      "targets": [
+        ["css=.home--one:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='coolbanner0']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://jabko.ua/iphone/apple-iphone-14-pro-max/')])[3]", "xpath:href"],
+        ["xpath=//div[8]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aae2c22e-db67-4764-a906-1171d1d213d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-layout:nth-child(1) .img-responsive",
+      "targets": [
+        ["css=.product-layout:nth-child(1) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Apple iPhone 14 Pro Max 128GB (Gold) (e-Sim)']", "xpath:img"],
+        ["xpath=//div[@id='mfilter-content-container']/div[2]/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49abad9-f23a-4255-977c-1ef422718364",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\32 2 > img",
+      "targets": [
+        ["css=.\\32 2 > img", "css:finder"],
+        ["xpath=//img[@alt='Apple iPhone 14 Pro Max 128GB (Gold) (e-Sim)']", "xpath:img"],
+        ["xpath=//div[@id='allproduct']/div[2]/div/div/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "243d476f-62a7-4231-8356-44366256ce88",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\32 2 > img",
+      "targets": [
+        ["css=.\\32 2 > img", "css:finder"],
+        ["xpath=//img[@alt='Apple iPhone 14 Pro Max 128GB (Gold) (e-Sim)']", "xpath:img"],
+        ["xpath=//div[@id='allproduct']/div[2]/div/div/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61300685-71a0-415a-a833-c35d985babb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=.product-info__btn > #button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='allproduct']/div[2]/div[2]/div[5]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3cb5982f-c08c-4639-9809-32377e73fdc7",
+    "name": "Apple Watch (ремінець)",
+    "commands": [{
+      "id": "b11d4eb3-40dd-4e31-98f3-69673dc4dd3c",
+      "comment": "",
+      "command": "open",
+      "target": "https://jabko.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "147eb15c-346c-4172-8f96-cd892a104fca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa4f33c0-71e2-4c98-a347-d5750d242082",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apple Watch",
+      "targets": [
+        ["linkText=Apple Watch", "linkText"],
+        ["css=.item:nth-child(4) .item--link-l1", "css:finder"],
+        ["xpath=//a[contains(text(),'Apple Watch')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://jabko.ua/zaporizhzhia/apple-watch/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a8c472-4f96-4aff-931b-a1f5dc93934e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home--one:nth-child(3) > a",
+      "targets": [
+        ["css=.home--one:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='coolbanner0']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jabko.ua/zaporizhzhia/apple-watch/apple-watch-series-8-pro/')]", "xpath:href"],
+        ["xpath=//div[8]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "360e2b4c-1adf-4d8b-9e3c-e4a4292a49c1",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div[@id='sticky']/ul/li[4]/div/div/i",
+      "targets": [
+        ["css=.mfilter-filter-item:nth-child(4) .mfilter-head-icon", "css:finder"],
+        ["xpath=//div[@id='sticky']/ul/li[4]/div/div/i", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "813582f7-62e2-41b8-ad36-da497b6ba585",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'Ocean Band')]",
+      "targets": [
+        ["css=.mfilter-input-active > .mfilter-tb-as-td", "css:finder"],
+        ["xpath=//div[@id='sticky']/ul/li[4]/div[2]/div/div/div/div/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Ocean Band')]", "xpath:innerText"]
+      ],
+      "value": "Ocean Band"
+    }]
+  }, {
+    "id": "2ed0e145-fc74-4cea-b2b0-4c9be2c583c9",
+    "name": "AirPods (Оплата частинами / ПриватБанк)",
+    "commands": [{
+      "id": "e7794827-8ee7-483c-a28c-3d5c92d8678e",
+      "comment": "",
+      "command": "open",
+      "target": "https://jabko.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a1f184d-c52a-4200-ad20-fc0158b6a1b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x755",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c90e3901-67d5-40fe-9aa0-a0e074c17fe3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AirPods",
+      "targets": [
+        ["linkText=AirPods", "linkText"],
+        ["css=.item:nth-child(5) .item--link-l1", "css:finder"],
+        ["xpath=//a[contains(text(),'AirPods')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://jabko.ua/zaporizhzhia/apple-airpods/')])[2]", "xpath:href"],
+        ["xpath=//div[5]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11945dbb-bf34-45b1-bf4f-68cdf2b93243",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home--one:nth-child(2) > a",
+      "targets": [
+        ["css=.home--one:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='coolbanner0']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jabko.ua/zaporizhzhia/apple-airpods/apple-airpods-pro/')]", "xpath:href"],
+        ["xpath=//div[8]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3de5735-8514-4658-b8bb-68f951c681b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product_link > .ls-is-cached",
+      "targets": [
+        ["css=.product_link > .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Навушники Apple AirPods Pro 2 (MQD83) (2022) у Запоріжжі']", "xpath:img"],
+        ["xpath=//div[@id='mfilter-content-container']/div[2]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a24388bc-e421-4a6b-852d-998219f44028",
+      "comment": "",
+      "command": "click",
+      "target": "css=.credit_order",
+      "targets": [
+        ["css=.credit_order", "css:finder"],
+        ["xpath=//div[@id='allproduct']/div[2]/div[2]/div[7]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Оплата частинами')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fb05437-3618-46f9-b82f-94e8ea048c90",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"credit--form\"]/div[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]",
+      "targets": [],
+      "value": "ПриватБанк"
+    }]
+  }],
+  "suites": [{
+    "id": "8d224dc1-cba9-4007-9e5f-0541a9ccab90",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["35e05a2d-c44b-43d3-b7a9-c894065921f6"]
+  }],
+  "urls": ["https://jabko.ua/"],
+  "plugins": []
+}
